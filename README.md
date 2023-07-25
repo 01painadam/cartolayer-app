@@ -23,8 +23,8 @@ Data can be explored through map interaction and information about individual da
 
 ## To do's
 
-Next steps for the project are to extend raneg of controls available and make them dataset-specific. For example, changing the radius of point data should not be available for polygon-based datasets. As such the controls should be configured for each dataset and the available controls should change with the selected dataset.
+Next steps for the project are to extend range of controls available and make them dataset-specific. For example, changing the radius of point data should not be available for polygon-based datasets. As such the controls should be configured for each dataset and the available controls should change with the selected dataset.
 
-Paramaterising the control functions (specifically teh event handlers) and passing the control props to the map, in stead of individual values, would make scaling the controls to include others much easier. 
+Paramaterising the control functions (specifically the event handlers) and passing the control props to the map, in stead of individual values, would make scaling the controls to include others much easier. 
 
 Another known issue to fix is the handling of the map state after user interaction (namely, zoom). Currently zooming resets the control values sent to to map - which do not persist. Further research is needed here but I suspect that seperating the state management of the map and controls is required.
