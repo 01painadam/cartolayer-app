@@ -2,6 +2,8 @@
 
 A demo to build a small geospatial data visualisation app using [deck.gl](https://deck.gl/) and [CartoLayer](https://deck.gl/docs/api-reference/carto/carto-layer). This project is an opportunity to learn developing a React app from scratch.
 
+<img width="1012" alt="Screenshot 2023-07-25 at 10 47 07" src="https://github.com/01painadam/cartolayer-app/assets/30242314/a4545af1-a5da-4ea3-88ed-50dbd9440cf9">
+
 ## What is does
 
 The application pulls two datasets from CARTO's data warehouse:
